@@ -1,3 +1,2 @@
 # Arduino
-Esercitazioni KIT Arduino con DHT11 e MAX6675.
-Disponibilie nel main branch il codice Arduino e il foglio Excel con i dati ricavati dalle misurazioni.
+In questa pagina sono disponibili i codici programma utilizzati per le esercitazioni con Arduino
