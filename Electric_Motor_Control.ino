@@ -22,7 +22,7 @@ void setup() {
 
 void loop() {
   PWM = analogRead(0);                    // Write on the PWM variable the value read from the potentiometer
-  motstate = map(PWM, 0, 1023, 0, 255);   // write on the motstate variable the vaule of the potentiomenter scaled throught the map function
+  motstate = map(PWM, 0, 1023, 0, 255);   // write on the motstate variable the vaule of the potentiomenter scaled through the map function
  
   if(motstate < 25){                      // If condition used to prevent the motor from receiving current if the potentiometer
     motstate = 0;                         // value is below 25
