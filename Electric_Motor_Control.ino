@@ -1,4 +1,4 @@
-// The following code is an attachment of the report 'Electric Motor Control'. 
+// The following code is an attachment of the report 'Santilli_ElectricMotorControl_rev00'. 
 // Author: Luca Massimo Santilli
 
 int sensorPin = 2;            // Define the digital pin used to read the encoder  
