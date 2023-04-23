@@ -30,7 +30,7 @@ void loop() {
   analogWrite(TIP120pin, motstate);       // Write on the TIP120 Base pin motstate value, controlling the speed of the motor
 
   start_time = millis();                  // Write on the start_time variable the starting time of a measurement
-  end_time = start_time + 1000;           // Write on he end_time variable the ending time of a measurement
+  end_time = start_time + 1000;           // Write on the end_time variable the ending time of a measurement
 
 while(millis() < end_time){               // While condition used to check if the current time is less than the end measurement time
   if((digitalRead(sensorPin)) == 1){      // If conditiond used to increase the steps variable by 1 if the encoder detects a notch
